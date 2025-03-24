@@ -29,7 +29,7 @@
 
         // Cargar el modelo 3D
         const loader = new THREE.GLTFLoader();
-        loader.load('modelo.glb', function (gltf) {
+        loader.load('model3d1.glb', function (gltf) {
             scene.add(gltf.scene);
             gltf.scene.position.set(0, -1, 0); // Ajusta la posición si es necesario
         }, undefined, function (error) {
